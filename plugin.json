@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-tiktok-embed",
+	"name": "NodeBB TikTok Embed",
+	"description": "NodeBB Plugin that allows users to Lazyload TikTok Videos inline in their posts.",
+	"url": "https://github.com/matheusrrocha/nodebb-plugin-tiktok-embed",
+	"library": "./library.js",
+	"hooks": [
+        { "hook": "filter:parse.post", "method": "parse" },
+	{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+        { "hook": "static:app.load", "method": "init" }		
+	],	
+	"templates": "templates",
+	"scripts": [
+	"static/lib/lazyYT.js",
+        "static/lib/main.js"
+	],
+	"staticDirs": {
+        "static": "./static"
+    },
+    "less": [
+	"./static/style.less"
+	]
+}

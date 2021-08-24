@@ -1,0 +1,44 @@
+{
+  "name": "nodebb-plugin-tiktok-lite",
+  "version": "0.1.0",
+  "nbbpm": {
+    "compatibility": "^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0"
+  },
+  "description": "NodeBB TikTok Embed Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrrocha/nodebb-plugin-tiktok-embed.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "tiktok",
+    "video",
+    "custom",
+    "embed",
+    "lazyload"
+  ],
+  "author": {
+    "name": "Matheus Rocha",
+    "email": "matheusrrocha@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matheusrrocha/nodebb-plugin-tiktok-embed/issues"
+  },
+  "_id": "nodebb-plugin-tiktok-embed@0.1.0",
+  "_npmUser": {
+    "name": "matheusrrocha",
+    "email": "matheusrrocha@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "matheusrocha",
+      "email": "matheusrrocha@gmail.com"
+    }
+  ]
+}
