@@ -5,13 +5,19 @@
 	"url": "https://github.com/matheusrrocha/nodebb-plugin-tiktok-embed",
 	"library": "./library.js",
 	"hooks": [
-        { "hook": "filter:parse.post", "method": "parse" },
-	{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
-        { "hook": "static:app.load", "method": "init" }		
+        { 
+			"hook": "filter:parse.post", "method": "parse" 
+		},
+		{ 
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation" 
+		},
+        { 
+			"hook": "static:app.load", "method": "init" 
+		}		
 	],	
 	"templates": "templates",
 	"scripts": [
-	"static/lib/lazyYT.js",
+		"static/lib/lazyYT.js",
         "static/lib/main.js"
 	],
 	"staticDirs": {
